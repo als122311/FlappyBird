@@ -75,7 +75,7 @@ function draw() {
     birdSpeed++
 
     gr.font = "30px Arial"
-    gr.fillText("Очки: " + scores,50,game.height - fg.height + fg.height / 2)
+    gr.fillText("Score " + scores,50,game.height - fg.height + fg.height / 2)
 }
 
 document.addEventListener("keydown",function(info){
